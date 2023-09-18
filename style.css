@@ -1,5 +1,15 @@
 .container {
+  padding: 10px;
   border: 2px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-wrapper {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .box {
@@ -10,6 +20,6 @@
 }
 
 .box-large {
-    max-width: 100px;
-    height: 100px;
+  max-width: 100px;
+  height: 100px;
 }
