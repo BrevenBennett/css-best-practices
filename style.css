@@ -15,20 +15,26 @@
   justify-content: space-between;
 }
 
-.box-wrapper {
-  width: 45%;
-}
-
-.box {
-  border: 2px solid lightgray;
-  width: 100%;
-  margin-bottom: 24px;
-}
-
+.box-wrapper,
 .box-large {
   width: 45%;
 }
 
-.box-small {
-    height: 50px;
+.tiny-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  border: 2px solid lightgray;
+  margin-bottom: 24px;
+}
+
+.box-small,
+.box-tiny {
+  height: 50px;
+}
+
+.box-tiny {
+  width: 30%;
 }
